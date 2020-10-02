@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-page.component.css']
 })
 export class MenuPageComponent implements OnInit {
-
-  constructor() { }
+  number = 0;
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  Submit() {
+    // console.log(this.number )
   }
 
 }

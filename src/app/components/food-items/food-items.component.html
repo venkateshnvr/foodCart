@@ -1,0 +1,31 @@
+<div id="grid" *ngIf="Disable">
+    <div *ngFor="let item of Data; let i = index">
+        <img src={{item.img}} alt={{item.img}} id="img"/>
+        <p id="center">{{item.name}}</p>
+        <p id="center_1">{{item.cost}}</p>
+            <button id="pluse" class="button" (click)="item.count > 0 ? item.count = item.count - 1: flase">-</button>
+                {{item.count}}
+            <button class="button" (click)="item.count = item.count + 1">+</button>
+        
+    </div>
+</div>
+
+<div *ngIf="Disable" id="payment">
+    <button id="paymentButton" (click)="disable()">Process To Payment</button>
+</div>
+
+<div *ngIf="Disable_1">
+    <div id="innerGrid" *ngFor="let item of Data; let i = index">
+        <div>
+            <p>{{item.name}}</p>
+            <p>{{item.cost}} * {{item.count}} = {{item.cost * item.count}}</p>
+        </div>
+        <div id="center_2">
+            <button id="pluse" class="button" (click)="item.count > 0 ? item.count = item.count - 1: flase">-</button>
+                {{item.count}}
+            <button  class="button" (click)="item.count = item.count + 1">+</button>
+        </div>
+    </div>
+    <button id="paymentButton_1" (click)="disable_1()">Process To Payment</button>
+</div>
+

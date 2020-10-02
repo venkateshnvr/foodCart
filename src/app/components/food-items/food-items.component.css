@@ -1,0 +1,60 @@
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+}
+
+#img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+#center {
+    margin-left: 85px;
+}
+#center_1 {
+    margin-left: 95px;
+}
+
+#center_2 {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.button {
+    border-radius: 20px;
+}
+
+#pluse {
+    margin-left: 77px;
+}
+
+#payment {
+    margin-top: 50px;
+    text-align: end;
+    margin-right: 110px;
+}
+
+#paymentButton {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#paymentButton_1 {
+    margin-left: 752px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#innerGrid {
+    display: grid;
+    grid-template-columns: 100px 500px;
+    margin-left: 500px;
+}

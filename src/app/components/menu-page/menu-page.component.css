@@ -1,0 +1,17 @@
+#margin {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#number {
+    width: 160px;
+}
+
+#button {
+    padding: 10px 15px 10px 15px;
+    background-color: green;
+    color: white;
+    font-size: larger;
+    border: none;
+    margin-top: 1%;
+}

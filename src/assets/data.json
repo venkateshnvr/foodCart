@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "cost": 50,
+        "img": "assets/images/bonda.jpg",
+        "name": "BONDA",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "cost": 150,
+        "img": "assets/images/pani.jpg",
+        "name": "PANI PURI",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "cost": 250,
+        "img": "assets/images/puri.jpg",
+        "name":"PURI",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "cost": 250,
+        "img": "assets/images/samosa.jpg",
+        "name":"SAMOSA",
+        "count": 0
+    }
+]
