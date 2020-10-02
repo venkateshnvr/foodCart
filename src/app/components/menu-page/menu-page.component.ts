@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu-page',
@@ -7,13 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuPageComponent implements OnInit {
   number = 0;
+  message = "";
+  
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
   Submit() {
-    // console.log(this.number )
+    if(this.number <= 30) {
+      this.router.navigate(['fooditems'])
+    } else {
+      alert("Please Select lessthan 30")
+    }
   }
+  
 
 }

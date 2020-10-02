@@ -44,17 +44,3 @@
     color: white;
 }
 
-#paymentButton_1 {
-    margin-left: 752px;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: orangered;
-    color: white;
-}
-
-#innerGrid {
-    display: grid;
-    grid-template-columns: 100px 500px;
-    margin-left: 500px;
-}

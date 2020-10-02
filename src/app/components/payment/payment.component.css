@@ -1,0 +1,32 @@
+#innerGrid {
+    display: grid;
+    grid-template-columns: 100px 500px;
+    margin-left: 500px;
+}
+
+#pluse {
+    margin-left: 77px;
+    margin-top: 24px;
+}
+
+#paymentButton {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-left: 38%;
+}
+
+#marginleft {
+    margin-left: 48%;
+}
+
+#totalamount {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-left: 10px;
+}

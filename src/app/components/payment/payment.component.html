@@ -1,0 +1,16 @@
+<div>
+    <div id="innerGrid" *ngFor="let item of jsonData; let i = index">
+        <div>
+            <p>{{item.name}}</p>
+            <p>{{item.cost}} * {{item.count}} = {{item.cost * item.count}}</p>
+        </div>
+        <div id="center_2">
+            <button id="pluse" class="button" (click)="item.count > 0 ? item.count = item.count - 1: flase">-</button>
+                {{item.count}}
+            <button  class="button" (click)="item.count = item.count + 1">+</button>
+        </div>
+    </div>
+    <p id="marginleft">{{totalPrice}}</p>
+    <button id="paymentButton" (click)="payment()">Payment</button>
+    <button id="totalamount" (click)="totalAmount()">Total Amount</button>
+</div>

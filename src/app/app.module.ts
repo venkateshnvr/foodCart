@@ -8,6 +8,7 @@ import { StartComponent } from './components/start/start.component';
 import { FoodItemsComponent } from './components/food-items/food-items.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { PaymentComponent } from './components/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CommonModule } from '@angular/common';
     MenuPageComponent,
     StartComponent,
     FoodItemsComponent,
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,
